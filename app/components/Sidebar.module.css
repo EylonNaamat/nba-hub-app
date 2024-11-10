@@ -1,0 +1,22 @@
+.sidebar {
+  width: 15vw;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: 3.75rem;
+    flex-direction: row;
+    padding: 0 1.5rem;
+    position: fixed;
+  }
+}

@@ -1,0 +1,43 @@
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logoImg {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.logoImg img {
+  object-fit: cover;
+
+}
+
+.logoTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 768px) {
+  .logo {
+    margin-top: 1.5rem;
+  }
+
+  .logoImg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .logoTitle {
+    font-size: 1rem;
+  }
+}
